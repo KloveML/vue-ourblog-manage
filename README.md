@@ -6,7 +6,7 @@
 
 vue2 + vue-router + vue-resource + webpack2 + es6/7 + sass + elementui + highlight.js + marked + simplemde
 
-**备注：博客功能有点少暂时没考虑用vuex[感觉用的话有点重]:o: **
+**备注：博客功能有点少暂时没考虑用vuex[感觉用的话有点重]**
 
 ## 数据接口说明
 后台的api是基于Node构建的，由于项目本身做的还有很多不尽人意的地方，并没有线上部署，如果要运行此项目还需[node-ourblog后台接口](https://github.com/KloveML/node-ourblog.git)
