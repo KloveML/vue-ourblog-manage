@@ -1,0 +1,52 @@
+// font
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('../assets/font/ostrich-sans-bold.eot');
+	src: local('☺'), url('../assets/font/ostrich-sans-bold.woff') format('woff'), url('../assets/font/ostrich-sans-bold.ttf') format('truetype'), url('../assets/font/ostrich-sans-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+//icon
+@font-face {font-family: "iconfont";
+  src: url('../assets/icon/iconfont.eot?t=1497879250686'); /* IE9*/
+  src: url('../assets/icon/iconfont.eot?t=1497879250686#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../assets/icon/iconfont.woff?t=1497879250686') format('woff'), /* chrome, firefox */
+  url('../assets/icon/iconfont.ttf?t=1497879250686') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../assets/icon/iconfont.svg?t=1497879250686#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bianji:before { content: "\e620"; }
+
+.icon-shanchu:before { content: "\e621"; }
+
+.icon-liebiao:before { content: "\e62d"; }
+
+.icon-baocun:before { content: "\e63b"; }
+
+.icon-daxiao:before { content: "\e63e"; }
+
+.icon-chakan:before { content: "\e63f"; }
+
+.icon-weixiao:before { content: "\e641"; }
+
+.icon-huanj-01:before { content: "\e644"; }
+
+.icon-text:before { content: "\e646"; }
+
+// main body
+body{
+  min-width:1280px;
+  background-color: $bodyBg;
+  background-size: cover;
+  background-image: url(../assets/images/homeBg.jpg);
+}
+
+// list common style
