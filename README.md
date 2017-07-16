@@ -24,5 +24,7 @@ npm install
 npm run dev
 
 访问:  http://localhost:8081/admin
+用户名:kk
+密码:123456
 
 ```
